@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:email])
     if user and user.authenticate(params[:password])
       session[:user_id] = user.id
-      redirect_to admin_url, notice: "Zostałeś zalogowany"
+      redirect_to booked_lecture_rooms_url, notice: "Zostałeś zalogowany"
     else
       redirect_to login_url, alert: "Hasło lub emeil są nieprawidłowe"
     end
