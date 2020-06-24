@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Booked Lecture Rooms</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Person</th>
+      <th>Data</th>
+      <th>Time</th>
+      <th>Hours</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @booked_lecture_rooms.each do |booked_lecture_room| %>
+      <tr>
+        <td><%= booked_lecture_room.name %></td>
+        <td><%= booked_lecture_room.person %></td>
+        <td><%= booked_lecture_room.data %></td>
+        <td><%= booked_lecture_room.time.strftime("%k:%M") %></td>
+        <td><%= booked_lecture_room.hours %></td>
+        <td><%= link_to 'Show', booked_lecture_room %></td>
+        <td><%= link_to 'Edit', edit_booked_lecture_room_path(booked_lecture_room) %></td>
+        <td><%= link_to 'Destroy', booked_lecture_room, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Booked Lecture Room', new_booked_lecture_room_path %>

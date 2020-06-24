@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @booked_lecture_room.name %>
+</p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @booked_lecture_room.person %>
+</p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @booked_lecture_room.data %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @booked_lecture_room.time.strftime("%k:%M") %>
+</p>
+
+<p>
+  <strong>Hours:</strong>
+  <%= @booked_lecture_room.hours %>
+</p>
+
+<%= link_to 'Edit', edit_booked_lecture_room_path(@booked_lecture_room) %> |
+<%= link_to 'Back', booked_lecture_rooms_path %>
