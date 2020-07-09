@@ -26,7 +26,7 @@ development:
   host: localhost
   database: rubyapp 
   username: postgres
-  password: magda
+  password: postgresMaciek98
   encoding: UTF8
 
   # The specified database role being used to connect to postgres.
