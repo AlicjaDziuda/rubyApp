@@ -1,162 +1,62 @@
-<!--app/views/sessions/new.html.erb -->
-
 <!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
 
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>2 Column Layout &mdash; Right Menu with Header &amp; Footer</title>
-		<style type="text/css">
-		
-			body {
-				margin:0;
-				padding:0;
-				font-family: Sans-Serif;
-				line-height: 1.5em;
-			}
-			
-			header {
-				background: #ccc;
-				height: 130px;
-				text-align:center;
-			}
-			
-			header h1 {
-				margin: 0;
-				padding-top: 15px;
-				font-size : 40px;
-			}
-			
-			main {
-				padding-bottom: 10010px;
-				margin-bottom: -10000px;
-				float: left;
-				width: 100%;
-			}
-			
-			nav {
-				padding-bottom: 10010px;
-				margin-bottom: -10000px;
-				float: left;
-				width: 230px;
-				margin-left: -230px;
-				background: #eee;
-			}
-			
-			footer {
-				clear: left;
-				width: 100%;
-				background: #ccc;
-				text-align: center;
-				padding: 4px 0;
-				bottom:0;
-				position:absolute;
-			}
-	
-			#wrapper {
-				overflow: hidden;
-			}
-						
-			#content {
-				margin-right: 230px; /* Same as 'nav' width */
-			}
-			
-			.innertube {
-				margin: 15px; /* Padding for content */
-				margin-top: 0;
-			}
-		
-			p {
-				color: #555;
-			}
-	
-			nav ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			
-			nav ul a {
-				color: darkgreen;
-				text-decoration: none;
-			}
-		
-		</style>
-		
-	
-	</head>
-	
-	<body>		
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Always expand</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-		<header>
-			<div class="innertube">
-				<h1>Wewnętrzny system rezerwacji sal<br><br><br> na Wydziale EEIA Politechniki Łódzkiej</h1>
-			</div>
-		</header>
-		
-		<div id="wrapper">
-		
-			<main>
-				<div id="content">
-					<div class="innertube">
-						<h1>Logowanie</h1>
-						<% if flash[:alert] %>
-						  <%= flash[:alert] %>
-						<% end %>
-						<%= form_tag do %>
-						  <legend>Logowanie</legend>
-						  <div>
-							<%= label_tag :email, 'Email:' %>
-							<%= text_field_tag :email, params[:email] %>
-						  </div>
-						  <div>
-							<%= label_tag :password, 'Hasło:' %>
-							<%= password_field_tag :password, params[:password] %>
-						  </div>
-						  <div>
-							<%= submit_tag "Zaloguj" %>
-						  </div>
-						<% end %>
-					</div>
-				</div>
-			</main>
-			
-			<nav>
-				<div class="innertube">
-					<h3>Right heading</h3>
-					<ul>
-						<li><a href="#">Link 1</a></li>
-						<li><a href="#">Link 2</a></li>
-						<li><a href="#">Link 3</a></li>
-						<li><a href="#">Link 4</a></li>
-						<li><a href="#">Link 5</a></li>
-					</ul>
-					<h3>Right heading</h3>
-					<ul>
-						<li><a href="#">Link 1</a></li>
-						<li><a href="#">Link 2</a></li>
-						<li><a href="#">Link 3</a></li>
-						<li><a href="#">Link 4</a></li>
-						<li><a href="#">Link 5</a></li>
-					</ul>
-					<h3>Right heading</h3>
-					<ul>
-						<li><a href="#">Link 1</a></li>
-						<li><a href="#">Link 2</a></li>
-						<li><a href="#">Link 3</a></li>
-						<li><a href="#">Link 4</a></li>
-						<li><a href="#">Link 5</a></li>
-					</ul>
-				</div>
-			</nav>
-		
-		</div>
-		
-		<footer>
-			<div class="innertube">
-				<p>Politechnika Łódzka</p>
-			</div>
-		</footer>
-	
-	</body>
+      <div class="collapse navbar-collapse" id="navbarsExample02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Search">
+        </form>
+      </div>
+    </nav>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Witaj na TicaTaca!</h1>
+        <p>Doznasz tu fajnych wrażeń, na które czekasz!</p>
+        <p><a class="btn btn-success btn-lg" href="rejestracja.html" role="button">Rejestracja</a></p>
+      </div>
+    </div> <!--.container-->
+    <div class="container">
+      <section class="row" style="text-align: center;">
+        <aside class="col-md-6">
+          <h2>Zabawa</h2>
+          <p>U nas liczy sie najlepsza zabawa! A oprocz tego jeśli znudzi Cie zabawa..</p>
+        </aside>
+        <article class="col-md-6">
+          <h2>Rozgrywka</h2>
+          <p>Oprocz normalnej zabawy masz okazje rowniez odbyc rywalizacje na jednym z najtrudniejszych torow w Polsce!</p>
+        </article>
+      </section>
+    </div><!-- /.container -->
+    <div class="container">    
+
+      </div>
+      
+    </div><!--.container-->
+  </body>
 </html>
