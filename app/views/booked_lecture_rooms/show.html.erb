@@ -1,29 +1,73 @@
-<p id="notice"><%= notice %></p>
+<!DOCTYPE HTML>
+<html lang="pl">
 
-<p>
-  <strong>Name:</strong>
-  <%= @booked_lecture_room.name %>
-</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-sclae=1, shrink-to-fit=no">
+    <meta http-equiv="U-XA-Compatible" content="IE=edge,chrome=1">
+    <title>show data</title>
+    <meta name="description" content="The HTML5 Herald">
+</head>
 
-<p>
-  <strong>Person:</strong>
-  <%= @booked_lecture_room.person %>
-</p>
+<body>
+    <nav class="navbar navbar-expand navbar-light bg-light static-top">
+        <a class="navbar-brand" href="https://www.p.lodz.pl">
+            <%= image_tag("logotyp_politechnika_lodzka.png",:size => "240x90" ) %>
+        </a>
+        <a class="navbar-brand" href="http://www.weeia.p.lodz.pl">
+            <%= image_tag("weeia.png",:size => "270x90" ) %>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav mr-auto"></ul>
+            <%= link_to 'Wyloguj', logout_path, method: :delete , class: "btn btn-danger"%>
+        </div>
+    </nav>
+    <div class="col-md-6 offset-md-3 text-center">
+        <br/>
+        <div class="card background-color: #f9f9f9">
+            <div class=card-header>
+                <h1>Szczegóły rezerwacji</h1>
+                <p id="notice"><%= notice %></p>
+            </div>
+            <div class="card-body">
+                <strong>Przedmiot:</strong><br/>
+                <%= @booked_lecture_room.name %><br/>
+                <strong>Imię i nazwisko:</strong><br/>
+                <%= @booked_lecture_room.person %><br/><br/>
+                <strong>Data:</strong>
+                <%= @booked_lecture_room.data %><br/><br/>
+                <strong>Godzina rozpoczęc:</strong>
+                <%= @booked_lecture_room.time.strftime("%k:%M") %><br/><br/>
+                <strong>Czas trwania:</strong>
+                <%= @booked_lecture_room.hours %>
+            </div>
+            <div class="card-body text-right">
+                <%= link_to 'Edytuj', edit_booked_lecture_room_path(@booked_lecture_room), class: "btn btn-primary" %>
+                <%= link_to 'Wróć', booked_lecture_rooms_path, class: "btn btn-primary"%>
+            </div>
+        </div>
+    </div>
 
-<p>
-  <strong>Data:</strong>
-  <%= @booked_lecture_room.data %>
-</p>
+        <footer class="page-footer font-small mdb-color pt-5">
+        <hr>
+        <div class="container">
+            <section class="row" style="text-align: center;">
+                <aside class="col-md-4">
+                    <p class="text-center text-md-left">© 2020 Copyright:
+                        <a href="https://www.p.lodz.pl">
+                            <strong> Politechnika Łódzka</strong>
+                        </a>
+                </aside>
+                <article class="col-md-4">
+                    <%= link_to 'Strona Domowa', logout_path, method: :delete %>
+                </article>
+                <article class="col-md-4">
+                    <h6>O nas</h2>
+                        <small>Tworzymy ten projekt jako grupa studentów trzeciego roku studiów. Uznaliśmy, że podczas nauki możemy również pomóc naszej uczelni - stąd pomysł aplikacji :)</small>
+                </article>
+            </section>
+        </div>
+    </footer>
+</body>
 
-<p>
-  <strong>Time:</strong>
-  <%= @booked_lecture_room.time.strftime("%k:%M") %>
-</p>
-
-<p>
-  <strong>Hours:</strong>
-  <%= @booked_lecture_room.hours %>
-</p>
-
-<%= link_to 'Edit', edit_booked_lecture_room_path(@booked_lecture_room) %> |
-<%= link_to 'Back', booked_lecture_rooms_path %>
+</html>
