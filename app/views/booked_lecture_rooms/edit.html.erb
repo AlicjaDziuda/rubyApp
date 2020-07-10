@@ -1,17 +1,56 @@
 <!DOCTYPE HTML>
-<html lang = "pl">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="U-XA-Compatible" content="IE=edge,chrome=1">
-        <title>index booked data</title>
-        <meta name="description" content="The HTML5 Herald">
-    </head>
-    <body>
-        <h1>Editing Booked Lecture Room</h1>
+<html lang="pl">
 
-        <%= render 'form', booked_lecture_room: @booked_lecture_room %>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="U-XA-Compatible" content="IE=edge,chrome=1">
+    <title>index booked data</title>
+    <meta name="description" content="The HTML5 Herald">
+</head>
 
-        <%= link_to 'Show', @booked_lecture_room %> |
-        <%= link_to 'Back', booked_lecture_rooms_path %>
-    </body>
+<body>
+    <nav class="navbar navbar-expand navbar-light bg-light static-top">
+        <a class="navbar-brand" href="https://www.p.lodz.pl">
+            <%= image_tag("logotyp_politechnika_lodzka.png",:size => "240x90" ) %>
+        </a>
+        <a class="navbar-brand" href="http://www.weeia.p.lodz.pl">
+            <%= image_tag("weeia.png",:size => "270x90" ) %>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav mr-auto"></ul>
+            <%= link_to 'Wyloguj', logout_path, method: :delete , class: "btn btn-danger"%>
+        </div>
+    </nav>
+    <div class="col-md-6 offset-md-3 text-center">
+        <br />
+        <div class="card background-color: #f9f9f9">
+            <h1 class="card-header">Edytuj rezerwację</h1>
+            <div class="card-body">
+                <%= render 'form', booked_lecture_room: @booked_lecture_room %>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small mdb-color pt-5">
+        <hr>
+        <div class="container">
+            <section class="row" style="text-align: center;">
+                <aside class="col-md-4">
+                    <p class="text-center text-md-left">© 2020 Copyright:
+                        <a href="https://www.p.lodz.pl">
+                            <strong> Politechnika Łódzka</strong>
+                        </a>
+                </aside>
+                <article class="col-md-4">
+                    <%= link_to 'Strona Domowa', logout_path, method: :delete %>
+                </article>
+                <article class="col-md-4">
+                    <h6>O nas</h2>
+                        <small>Tworzymy ten projekt jako grupa studentów trzeciego roku studiów. Uznaliśmy, że podczas nauki możemy również pomóc naszej uczelni - stąd pomysł aplikacji :)</small>
+                </article>
+            </section>
+        </div>
+    </footer>
+</body>
+
 </html>
