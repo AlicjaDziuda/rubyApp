@@ -1,42 +1,33 @@
 <%= form_with(model: user, local: true) do |form| %>
   <% if user.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
-
-      <ul>
-        <% user.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
+      <p id="alert" class="text-danger text-left" >Błędne dane!</p>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
+  <div class="form-group">
+    <%= form.text_field :first_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Imię' %>
   </div>
 
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
+  <div class="form-group">
+    <%= form.text_field :last_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Nazwisko' %>
   </div>
 
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
+  <div class="form-group">
+    <%= form.text_field :email, class: 'form-control',id: 'password_confirmation',placeholder: 'E-mail' %>
   </div>
 
-  <div class="field">
-    <%= form.label :password %>
-    <%= form.password_field :password %>
+  <div class="form-group">
+    <%= form.password_field :password, class: 'form-control',id: 'password_confirmation',placeholder: 'Hasło' %>
   </div>
 
-  <div class="field">
-    <%= form.label :password_confirmation %>
-    <%= form.password_field :password_confirmation %>
+  <div class="form-group">
+    <%= form.password_field :password_confirmation, class: 'form-control',id: 'password_confirmation',placeholder: 'Powtórz hasło' %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Zatwierdź", class: "btn btn-success " %>
   </div>
 <% end %>
+
+
