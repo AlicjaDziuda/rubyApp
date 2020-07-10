@@ -23913,3 +23913,906 @@ Processing by UsersController#edit as HTML
 Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.4ms | Allocations: 9633)
 
 
+Started GET "/login" for ::1 at 2020-07-10 17:40:50 +0200
+Started GET "/login" for ::1 at 2020-07-10 17:40:50 +0200
+  
+PG::ConnectionBad (KATASTROFALNY:  autoryzacja has�em nie powiod�a si� dla u�ytkownika "postgres"
+):
+  
+pg-1.2.3-x64 (mingw32) lib/pg.rb:58:in `initialize'
+pg-1.2.3-x64 (mingw32) lib/pg.rb:58:in `new'
+pg-1.2.3-x64 (mingw32) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.2) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.2) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.2) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  
+PG::ConnectionBad (KATASTROFALNY:  autoryzacja has�em nie powiod�a si� dla u�ytkownika "postgres"
+):
+  
+pg-1.2.3-x64 (mingw32) lib/pg.rb:58:in `initialize'
+pg-1.2.3-x64 (mingw32) lib/pg.rb:58:in `new'
+pg-1.2.3-x64 (mingw32) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.2) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.2) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.2) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/login" for ::1 at 2020-07-10 17:41:38 +0200
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9714.4ms | Allocations: 91832)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/Alicja/Desktop/Maciek/rubyApp/public/packs
+[Webpacker] Hash: adfbe9e7dffcb48dfa6b
+Version: webpack 4.43.0
+Time: 8216ms
+Built at: 2020-07-10 17:42:04
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-fb2ef7e79dcd321c90a6.js    656 KiB  application  [emitted] [immutable]  application
+js/application-fb2ef7e79dcd321c90a6.js.map    768 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-fb2ef7e79dcd321c90a6.js js/application-fb2ef7e79dcd321c90a6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 25807ms (Views: 25790.0ms | ActiveRecord: 0.0ms | Allocations: 144314)
+
+
+Started POST "/login" for ::1 at 2020-07-10 17:42:17 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"LJPiGvuop3fkoP8WAKEhm898qF/iRbTHoMGVx+X1gemUgYcZpjThg9PWG8cAJEQZyb12IjR+IRiT6lEq3povgw==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 352ms (ActiveRecord: 32.5ms | Allocations: 7326)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 17:42:17 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1452)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started GET "/login" for ::1 at 2020-07-10 17:42:25 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 2470)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 15130)
+
+
+Started POST "/login" for ::1 at 2020-07-10 17:42:27 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"SA/Nc1uK7kj51r7JnF35/bxYEXX+SlWYJKfDMLI2RtnwHahwBhaovM6gWhic2Jx/upnPCChxwEcXjAfdiVnosw==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 301ms (ActiveRecord: 0.4ms | Allocations: 1045)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 17:42:28 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (7.9ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 24.0ms | Allocations: 3296)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 87ms (Views: 73.9ms | ActiveRecord: 10.5ms | Allocations: 18305)
+
+
+Started GET "/booked_lecture_rooms/new" for ::1 at 2020-07-10 17:42:35 +0200
+Processing by BookedLectureRoomsController#new as HTML
+  Rendering booked_lecture_rooms/new.html.erb within layouts/application
+  Rendered booked_lecture_rooms/_form.html.erb (Duration: 182.7ms | Allocations: 7304)
+  Rendered booked_lecture_rooms/new.html.erb within layouts/application (Duration: 194.0ms | Allocations: 9282)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 275ms (Views: 257.3ms | ActiveRecord: 3.9ms | Allocations: 28706)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 17:43:36 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"B/xIyFSGiKXczG3jTngQMdGslvov/VRgvwM/3Xhyv56/7i3LCRrOUeu6iTJO/XWz121Ih/nGwb+MKPswQx0R9A=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started GET "/login" for ::1 at 2020-07-10 17:43:36 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2453)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms | Allocations: 16774)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 17:43:38 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.6ms | Allocations: 894)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2902)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 71.0ms | ActiveRecord: 0.0ms | Allocations: 17859)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:44:06 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"s4T2/zbTwrZ7MDy1l0gnGj+lHhsPaCUd7wcoirDYhWVJKPuJRIHh1FETTw/Yr18RDDfzRzYswM8P+7nKSVAWnA==", "user"=>{"first_name"=>"tadeusz", "last_name"=>"dzik", "email"=>"tadeusz.dzik@p.lodz.pll", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[36mUser Create (57.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["first_name", "tadeusz"], ["last_name", "dzik"], ["email", "tadeusz.dzik@p.lodz.pll"], ["password_digest", "$2a$12$Kqb6iZZzhGEg5bhDgDTJ7O1SfuXAM7E0JqdIyAsdzN4TFE/QPt9Yu"], ["created_at", "2020-07-10 15:44:07.181390"], ["updated_at", "2020-07-10 15:44:07.181390"]]
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[35m (19.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 383ms (ActiveRecord: 77.1ms | Allocations: 3257)
+
+
+Started GET "/users/2" for ::1 at 2020-07-10 17:44:07 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 56.1ms | ActiveRecord: 0.3ms | Allocations: 15605)
+
+
+Started GET "/users" for ::1 at 2020-07-10 17:44:22 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:45
+  Rendered users/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2894)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 63.7ms | ActiveRecord: 0.4ms | Allocations: 17377)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 17:44:59 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mY4eCt2E7q3rj2A2qGofsTvWiJxdlATvlGnck1rBqyUhnHsJgBioWdz5hOeo73ozPRdW4YuvkTCnQhh+Ya4FTw=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 345)
+
+
+Started GET "/login" for ::1 at 2020-07-10 17:44:59 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2452)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.0ms | Allocations: 16772)
+
+
+Started GET "/login" for ::1 at 2020-07-10 17:46:44 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 16.2ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.0ms | Allocations: 16757)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 17:46:46 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 493)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2025)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms | Allocations: 16356)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:46:48 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"lqzbqsvEV42roxpNXbV2h/6HWvYz3gCmFbtbAwSnVuRsANbcuZZ074GAafcSUg6MzRW3qgqa5XT1R8pD/S/FHQ==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 514)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2046)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.0ms | Allocations: 17405)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:46:50 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"YWTzI20LHfelAgRUuRILPdnx7USXTOPDXe/Iz7jZwgfZdpYgMJdbA5J04IW5l26/3zAzOUF3dhxuxAwig7ZsbQ==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 507)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 2039)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.0ms | Allocations: 17286)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:46:52 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Ly/l1WihVgURqyuDgBgTbfHtstyNkP6/Q+Me+1T8kVWXPYDWNT0Q8Sbdz1KAnXbv9yxsoVura2BwyNoWb5M/Pw==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 507)
+  Rendered users/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 2040)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 75ms (Views: 70.6ms | ActiveRecord: 0.0ms | Allocations: 17278)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:48:16 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"ZnpOrsz6pF3+hqZ+xux2qyy+U+AguSrV5WG/x6MFYMDeaCutkWbiqcnwQq/GaRMpKn+NnfaCvwrWSnsqmGrOqg==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 507)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2039)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 74ms (Views: 70.1ms | ActiveRecord: 0.0ms | Allocations: 17284)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:48:22 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"rNbN83pRqKrAn9LiP3wlFlIaucWLwzePm5KY2TJFM5YUxKjwJ83uXvfpNjM/+UCUVNtnuF34olCouVw0CSqd/A==", "user"=>{"first_name"=>"d", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.7ms | Allocations: 508)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2040)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.0ms | Allocations: 17287)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:48:23 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"G5cb7zQBQK7e2WDbZWVHFh3mULt3U75VlVMeDd5W7xejhX7saZ0GWumvhApl4CKUGyeOxqFoK4qmeNrg5TlBfQ==", "user"=>{"first_name"=>"d", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.7ms | Allocations: 508)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2040)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 63.1ms | ActiveRecord: 0.0ms | Allocations: 17281)
+
+
+Started POST "/users" for ::1 at 2020-07-10 17:50:04 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"1lYDeDlZgG0rPXwAnxYoqDkJReCPYnF+hB5cfXXh0+FuRGZ7ZMXGmRxLmNGfk00qP8ibnVlZ5KG3NZiQTo59iw==", "user"=>{"first_name"=>"d", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zatwierdź"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 508)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2040)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms | Allocations: 17270)
+
+
+Started GET "/users" for ::1 at 2020-07-10 17:50:08 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:45
+  Rendered users/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 2458)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 1.3ms | Allocations: 16789)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 17:50:26 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HIy5qnuKvNfIx697Gi0+z7bhUefSnkQlRFxQIrWs59GkntypJhb6I/+xS6oaqFtNsCCPmgSl0fp3d5TPjsNJuw=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 341)
+
+
+Started GET "/login" for ::1 at 2020-07-10 17:50:26 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.0ms | Allocations: 16763)
+
+
+Started POST "/login" for ::1 at 2020-07-10 17:50:33 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"w/A8vX05MTCNREXWseIXbfveBtc0Ln/Iv7Jf3prT0BN74lm+IKV3xLoyoQexZ3Lv/R/YquIV6heMmZszobx+eQ==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 303ms (ActiveRecord: 0.4ms | Allocations: 1005)
+
+
+Started GET "/login" for ::1 at 2020-07-10 17:50:34 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2449)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.0ms | Allocations: 16775)
+
+
+Started POST "/login" for ::1 at 2020-07-10 17:50:40 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"hf3ji92F3WcYSPx7fDHShuTroeaE4NQD6LZeQh1TN1M974aIgBmbky8+GKp8tLcE4ip/m1LbQdzbnZqvJjyZOQ==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 297ms (ActiveRecord: 0.3ms | Allocations: 1016)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 17:50:41 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2209)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.3ms | Allocations: 16566)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 17:50:44 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"S4C1vZa+p6kJ4E7komxfQu1csVov0iKnvtV+v7N5GfjzktC+yyLhXT6WqjWi6TrA651vJ/npt3iN/rpSiBa3kg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 337)
+
+
+Started GET "/login" for ::1 at 2020-07-10 17:50:44 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms | Allocations: 16761)
+
+
+Started POST "/login" for ::1 at 2020-07-10 17:51:01 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"sqGkDVLwNdAZkGislqhnRWPnQ2dQIR0brqfbRqN2LhQKs8EOD2xzJC7mjH2WLQLHZSadGoYaiMSdjB+rmBmAfg==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pll", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pll"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 296ms (ActiveRecord: 0.4ms | Allocations: 1008)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 17:51:02 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.4ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2202)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 64.9ms | ActiveRecord: 0.4ms | Allocations: 16557)
+
+
+Started GET "/login" for ::1 at 2020-07-10 17:51:50 +0200
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 130.3ms | Allocations: 22038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 223ms (Views: 204.8ms | ActiveRecord: 0.0ms | Allocations: 37209)
+
+
+Started POST "/login" for ::1 at 2020-07-10 17:51:56 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"T2FjmjL1dtwufTD1WfsbW1wUU4oclSiPnZcYr0HNzzL3cwaZb2kwKBkL1CRZfn7ZWtWN98quvVCuvNxCeqJhWA==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 304ms (ActiveRecord: 6.5ms | Allocations: 7338)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 17:51:56 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1456)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:08 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:11 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:18 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:21 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:25 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:40 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:45 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:47 +0200
+Started POST "/__web_console/repl_sessions/d9235b0ef3d15bd9246d02618078aaef/trace" for ::1 at 2020-07-10 18:00:58 +0200
+Started GET "/login" for ::1 at 2020-07-10 18:02:08 +0200
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 114.8ms | Allocations: 22038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 205ms (Views: 187.1ms | ActiveRecord: 0.0ms | Allocations: 37222)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:02:15 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"qvqeBOXRODAA3A7rNA1pexc+4i64Oh+3gGDt4ETNhIMS6PsHuE1+xDeq6jo0iAz5Ef88U24BimizSykNf6Iq6Q==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 313ms (ActiveRecord: 7.6ms | Allocations: 7326)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:02:16 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1458)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started GET "/login" for ::1 at 2020-07-10 18:03:37 +0200
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 138.8ms | Allocations: 22039)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 220ms (Views: 206.6ms | ActiveRecord: 0.0ms | Allocations: 37225)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:03:41 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ZYRozw5qb/jKVcOhJ/xR+0Z72IiCS/+0angGh/D3c6ndlg3MU/YpDP0jJ3AneTR5QLoG9VRwamtZU8Jqy5jdww==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 298ms (ActiveRecord: 5.9ms | Allocations: 7318)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:03:41 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1458)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started POST "/__web_console/repl_sessions/a0ffc4c7cd675770f8e537864307e2c0/trace" for ::1 at 2020-07-10 18:03:57 +0200
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:04:04 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (1.5ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 3334)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 66ms (Views: 61.8ms | ActiveRecord: 2.8ms | Allocations: 18455)
+
+
+Started GET "/login" for ::1 at 2020-07-10 18:04:07 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2455)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms | Allocations: 16777)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:04:13 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pSeOzma9HhBNdTeuo14sey7LbLKCH+Xa7wLiCw+HIBodNevNOyFY5HoD03+j20n5KAqyz1QkcAXcKSbmNOiOcA==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 297ms (ActiveRecord: 0.4ms | Allocations: 1005)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:04:13 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2205)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.3ms | Allocations: 16545)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 18:04:16 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YPiFrgF2AZXQPb9wudd37Q7tVpGwFxmzft270Pc2TrvY6uCtXOpHYedLW6G5UhJvCCyI7GYsjGxN9n89zFng0Q=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 354)
+
+
+Started GET "/login" for ::1 at 2020-07-10 18:04:16 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms | Allocations: 16764)
+
+
+Started GET "/login" for 127.0.0.1 at 2020-07-10 18:04:45 +0200
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 121.6ms | Allocations: 22038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 213ms (Views: 195.9ms | ActiveRecord: 0.0ms | Allocations: 37202)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-10 18:04:52 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"lmUcO7ZLTZLQt0i859S/xzmShoouzExO1INxUO90ghcud3k469cLZufBrG3nUdpFP1NY9/j32ZHnqLW91BssfQ==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 299ms (ActiveRecord: 6.0ms | Allocations: 7328)
+
+
+Started GET "/booked_lecture_rooms" for 127.0.0.1 at 2020-07-10 18:04:52 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1463)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:13 +0200
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:14 +0200
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:31 +0200
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:34 +0200
+Started PUT "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e" for ::1 at 2020-07-10 18:05:38 +0200
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:40 +0200
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:41 +0200
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:53 +0200
+Started POST "/__web_console/repl_sessions/6b0f34d025620b82fe1b315cf9b1a79e/trace" for ::1 at 2020-07-10 18:05:59 +0200
+Started GET "/login" for ::1 at 2020-07-10 18:06:56 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2473)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms | Allocations: 16913)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:07:02 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"4aV01YtQB6oaqBYrNzZy56uyHc9JwFKduRBdlzSQdwhZtxHW1sxBXi3e8vo3sxdlrXPDsp/7x0KKO5l6D//ZYg==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 284ms (ActiveRecord: 0.4ms | Allocations: 1042)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:07:02 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (1.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 22.2ms | Allocations: 3299)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 85ms (Views: 79.3ms | ActiveRecord: 3.6ms | Allocations: 18404)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 18:07:05 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ewQ6Ynv4HidgELQ4MEhybZ0xYHJFO6a4SAH/UhcG+nDDFl9hJmRY01dmUOkwzRfvm/C+D5MAM2d7Kju/LGlUGg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 358)
+
+
+Started GET "/login" for ::1 at 2020-07-10 18:07:05 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2452)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms | Allocations: 16769)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:07:38 +0200
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"JmO+Xl7yhHFvrIg/r2i7umUcryrJTiJImVAPVhMrhNGecdtdA27ChVjabO6v7d44Y91xVx91t5eqe8u7KEQquw==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pll", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pll"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 314ms (ActiveRecord: 7.3ms | Allocations: 7421)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:07:39 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1461)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started GET "/login" for ::1 at 2020-07-10 18:10:07 +0200
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 113.8ms | Allocations: 22038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 199ms (Views: 188.3ms | ActiveRecord: 0.0ms | Allocations: 37226)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:10:13 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"xERHJ0XSBnegeY4E8Da5x5qxLmFKwWwnO34/1LKxPhl8ViIkGE5Ag5cPatXws9xFnHDwHJz6+fgIVfs5id6Qcw==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 317ms (ActiveRecord: 6.5ms | Allocations: 7316)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:10:14 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1474)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started GET "/login" for ::1 at 2020-07-10 18:13:06 +0200
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 126.9ms | Allocations: 22038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 216ms (Views: 202.1ms | ActiveRecord: 0.0ms | Allocations: 37240)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:13:13 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"A5io5GWAQzHWiT8RKsiIhZfZoKPomW+5nEJBG4hd+Iy7is3nOBwFxeH/28AqTe0HkRh+3j6i+mavaYX2szJW5g==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 320ms (ActiveRecord: 5.5ms | Allocations: 7338)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:13:14 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1454)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started POST "/__web_console/repl_sessions/bdeb70bfd270acec8123c0843cccd04f/trace" for ::1 at 2020-07-10 18:13:41 +0200
+Started POST "/__web_console/repl_sessions/bdeb70bfd270acec8123c0843cccd04f/trace" for ::1 at 2020-07-10 18:13:42 +0200
+Started GET "/login" for ::1 at 2020-07-10 18:37:04 +0200
+  [1m[35m (31.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1057.9ms | Allocations: 22057)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1351ms (Views: 1330.6ms | ActiveRecord: 0.0ms | Allocations: 37119)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:37:12 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"8uymKxn4RxzgrWJASHuHYbRLILcK4grfnOXtMbnESI/CUwvVAP6FjI+XGlsD5AXEy+FrbfyOJbT/WwTH0Xzlmg==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (33.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 417ms (ActiveRecord: 93.0ms | Allocations: 7332)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:37:13 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1461)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<top (required)>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started POST "/__web_console/repl_sessions/f9edcb5691a556e785f678a7a21a2559/trace" for ::1 at 2020-07-10 18:38:00 +0200
+Started GET "/login" for ::1 at 2020-07-10 18:39:02 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2475)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.0ms | Allocations: 17073)
+
+
+Started GET "/login" for ::1 at 2020-07-10 18:39:29 +0200
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 138.9ms | Allocations: 22038)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 233ms (Views: 219.6ms | ActiveRecord: 0.0ms | Allocations: 37203)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:39:35 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"GFOFLupPR3BBdcplvBuq8K6vABWQJJktc2ikeotn7PMo7CjQ80mF4C5Psn73hChV0QVLz2ZItkYQ1k2M499B5g==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pl", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 299ms (ActiveRecord: 5.5ms | Allocations: 7328)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:39:35 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (23.7ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 59.3ms | Allocations: 3286)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 134ms (Views: 103.5ms | ActiveRecord: 25.0ms | Allocations: 18738)
+
+
+Started GET "/booked_lecture_rooms/new" for ::1 at 2020-07-10 18:39:40 +0200
+Processing by BookedLectureRoomsController#new as HTML
+  Rendering booked_lecture_rooms/new.html.erb within layouts/application
+  Rendered booked_lecture_rooms/_form.html.erb (Duration: 156.8ms | Allocations: 7295)
+  Rendered booked_lecture_rooms/new.html.erb within layouts/application (Duration: 191.1ms | Allocations: 9285)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 269ms (Views: 246.9ms | ActiveRecord: 2.5ms | Allocations: 28776)
+
+
+Started POST "/booked_lecture_rooms" for ::1 at 2020-07-10 18:40:00 +0200
+Processing by BookedLectureRoomsController#create as HTML
+  Parameters: {"authenticity_token"=>"MPFbWtHx8ST1iDjXbcwddcm9olIcWLtcx9lxbLBQvw7gjIDeZJK4vfIfo2v05nV+fT5t3EWwmq+ZL6twv+2mIg==", "booked_lecture_room"=>{"name"=>"AOI", "person"=>"XD", "data(1i)"=>"2020", "data(2i)"=>"7", "data(3i)"=>"10", "time(1i)"=>"2020", "time(2i)"=>"7", "time(3i)"=>"10", "time(4i)"=>"16", "time(5i)"=>"39", "hours"=>"2"}, "commit"=>"Zatwierdź"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+  [1m[36mBookedLectureRoom Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."name" = $1 AND "booked_lecture_rooms"."time" = $2 LIMIT $3[0m  [["name", "AOI"], ["time", "16:39:00"], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+  [1m[36mBookedLectureRoom Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."name" = $1 AND "booked_lecture_rooms"."hours" = $2 LIMIT $3[0m  [["name", "AOI"], ["hours", 2], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+  [1m[36mBookedLectureRoom Create (202.6ms)[0m  [1m[32mINSERT INTO "booked_lecture_rooms" ("name", "person", "data", "time", "hours", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "AOI"], ["person", "XD"], ["data", "2020-07-10"], ["time", "16:39:00"], ["hours", 2], ["created_at", "2020-07-10 16:40:00.864752"], ["updated_at", "2020-07-10 16:40:00.864752"]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/booked_lecture_rooms/1
+Completed 302 Found in 224ms (ActiveRecord: 205.2ms | Allocations: 5991)
+
+
+Started GET "/booked_lecture_rooms/1" for ::1 at 2020-07-10 18:40:01 +0200
+Processing by BookedLectureRoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  Rendering booked_lecture_rooms/show.html.erb within layouts/application
+  Rendered booked_lecture_rooms/show.html.erb within layouts/application (Duration: 61.3ms | Allocations: 2039)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 128ms (Views: 122.9ms | ActiveRecord: 0.3ms | Allocations: 17259)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:40:04 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2414)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.3ms | Allocations: 16740)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 18:40:11 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HRlpIYex2BE7vo/rI8w181a2LBSGcqVN4ZozIKVU0F4tpsTfnrcagVSE9/BoU7dWKRxnznAeiiaCJNrWzex9Sw=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 330)
+
+
+Started GET "/login" for ::1 at 2020-07-10 18:40:11 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2452)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms | Allocations: 16771)
+
+
+Started POST "/login" for ::1 at 2020-07-10 18:40:30 +0200
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"9uabI8UBvbKCM4PjKCLKc+5cwvLgfnhqEl42cFZoYJ3GWTbd3Ad/Iu0J+/hjvUjWkfaJKBYSVwFx4N+GPtDNiA==", "session"=>{"email"=>"tadeusz.dzik@p.lodz.pll", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tadeusz.dzik@p.lodz.pll"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 309ms (ActiveRecord: 5.8ms | Allocations: 7423)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 18:40:30 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.7ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:46
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 130.9ms | Allocations: 27109)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 213ms (Views: 198.9ms | ActiveRecord: 3.7ms | Allocations: 42743)
+
+
