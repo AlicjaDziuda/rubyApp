@@ -16110,3 +16110,3021 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 10577)
 
 
+Started GET "/login?authenticity_token=kmN1Ds%2BDUZkX8BwBkqgmDSWlFWQaZVlW6rpTUILC6Us1lM2QDwcCpOW4JRx%2FPxw9QP0R16%2FLw7jA%2BfdP71IOTQ%3D%3D&session%5Bemail%5D=mateusz.kowalski%40gmail.com&session%5Bpassword%5D=[FILTERED]&commit=Zaloguj" for ::1 at 2020-07-10 01:49:21 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"kmN1Ds+DUZkX8BwBkqgmDSWlFWQaZVlW6rpTUILC6Us1lM2QDwcCpOW4JRx/Pxw9QP0R16/Lw7jA+fdP71IOTQ==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 18.7ms | Allocations: 13252)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 50.8ms | ActiveRecord: 0.0ms | Allocations: 22835)
+
+
+Started GET "/login?authenticity_token=kmN1Ds%2BDUZkX8BwBkqgmDSWlFWQaZVlW6rpTUILC6Us1lM2QDwcCpOW4JRx%2FPxw9QP0R16%2FLw7jA%2BfdP71IOTQ%3D%3D&session%5Bemail%5D=mateusz.kowalski%40gmail.com&session%5Bpassword%5D=[FILTERED]&commit=Zaloguj" for ::1 at 2020-07-10 01:49:22 +0200
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"kmN1Ds+DUZkX8BwBkqgmDSWlFWQaZVlW6rpTUILC6Us1lM2QDwcCpOW4JRx/Pxw9QP0R16/Lw7jA+fdP71IOTQ==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1774)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms | Allocations: 9144)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:49:24 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 7.9ms | Allocations: 3292)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 3656)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 26.7ms | ActiveRecord: 8.5ms | Allocations: 17274)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:51:11 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | Allocations: 1730)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2075)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 10485)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:52:48 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | Allocations: 1730)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2077)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 10500)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:54:45 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1727)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 10047)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:55:17 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3667)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 11980)
+
+
+Started GET "/users/users/new" for ::1 at 2020-07-10 01:55:21 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for ::1 at 2020-07-10 01:55:24 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.6ms | Allocations: 1325)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2745)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 10170)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:55:34 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.3ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3664)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 11982)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:56:07 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.4ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3644)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 11955)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:56:18 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.7ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3644)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 11971)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:56:21 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3625)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 11946)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:56:41 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 11974)
+
+
+Started GET "/users/login" for ::1 at 2020-07-10 01:56:42 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+Completed 404 Not Found in 15ms (ActiveRecord: 1.5ms | Allocations: 3543)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=login):
+  
+app/controllers/users_controller.rb:67:in `set_user'
+Started GET "/users/new" for ::1 at 2020-07-10 01:56:48 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.5ms | Allocations: 1305)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2703)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 10111)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:57:02 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.0ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 3666)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 11976)
+
+
+Started GET "/users/login.html" for ::1 at 2020-07-10 01:57:03 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.8ms | Allocations: 1197)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=login):
+  
+app/controllers/users_controller.rb:67:in `set_user'
+Started GET "/users/login.html" for ::1 at 2020-07-10 01:57:12 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms | Allocations: 1189)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=login):
+  
+app/controllers/users_controller.rb:67:in `set_user'
+Started GET "/users/login.html" for ::1 at 2020-07-10 01:57:13 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1197)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=login):
+  
+app/controllers/users_controller.rb:67:in `set_user'
+Started GET "/users/new" for ::1 at 2020-07-10 01:57:15 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.5ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 3666)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 11992)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:57:27 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.5ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 10.1ms | Allocations: 3665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 11964)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:57:28 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.6ms | Allocations: 1305)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 2702)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 10099)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:57:29 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.6ms | Allocations: 1302)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2694)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 10080)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:58:45 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3664)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 11981)
+
+
+Started GET "/login" for ::1 at 2020-07-10 01:58:48 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 10183)
+
+
+Started GET "/localhost/login" for ::1 at 2020-07-10 01:58:51 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/localhost/login"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/login" for ::1 at 2020-07-10 01:58:59 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1770)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 9142)
+
+
+Started GET "/login" for ::1 at 2020-07-10 01:59:08 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 10544)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:59:50 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.1ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 11982)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 01:59:57 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 11982)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:00:24 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 11972)
+
+
+Started GET "/users/session/new" for ::1 at 2020-07-10 02:00:25 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/users/session/new"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for ::1 at 2020-07-10 02:00:36 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.6ms | Allocations: 1305)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2704)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 10111)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:00:44 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3666)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 11976)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:00:45 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2249)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 10189)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:00:46 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1768)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 9142)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:03:42 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2248)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 10532)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:03:44 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1773)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 9140)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:03:47 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2254)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 10547)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:03:51 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.3ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3666)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 11623)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:04:06 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3664)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 11969)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:04:08 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 2248)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 10178)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:04:09 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1768)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 9134)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:04:09 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1768)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 9149)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:05:18 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 10594)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:05:19 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"e+T7U9U1UKTWZjQwJBdy5KLVUVECDOKQaQKjiYgLsJ7cE0PNFbEDmSQuDS3JgEjUx41V4reieH5DQQeW5ZtXmA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 369)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:05:19 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1809)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 9169)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:05:25 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2302)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 10594)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:05:26 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tqEq/cg9/gbN8qYeJHmICpPFnXg1+qu8nhDgPxRMz3oRVpJjCLmtOz+6nwPJ7rI69p2Zy4BUMVK0U0QgedwofA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 343)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:05:26 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1809)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 9187)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:05:34 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 10591)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:05:35 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 6.0ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 3720)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 11667)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:05:39 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4V1nMKoRiwvYMRYeSudR84T2ETyC0Zg+yMyrjLUP6JNGqt+uapXYNip5LwOncGvD4a4Vjzd/AtDijw+T2J8PlQ=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 341)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:05:39 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1811)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 9188)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:07:00 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 9170)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:07:03 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"W1af4kYV+Ehm6XEADEUS9i68X/iOI0cstFzTPeCi2i78oSd8hpGrdZShSB3h0ijGS+RbSzuN3cKeH3cijTI9KA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 339)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:07:03 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 9170)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:07:04 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 1302)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2730)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 10123)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:07:06 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 1302)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 10121)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:07:08 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.7ms | Allocations: 1302)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 2729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 10127)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:08:07 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1260)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.6ms | Allocations: 8900)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:09:17 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.6ms | Allocations: 1305)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2734)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 10117)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:09:52 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.8ms | Allocations: 1720)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 3718)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 12026)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:09:55 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.3ms | Allocations: 1305)
+  Rendered users/new.html.erb within layouts/application (Duration: 10.3ms | Allocations: 2738)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 10139)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:21 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"OsIOgwAy0YA7l3BnnUtG19oeMY1eHNezl7uZ3XcdptvjS7PH8+0TU9vHcdPqRkXkE475n+OmqpAgljaM+StnPA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1090)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:21 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 10250)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:22 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"r1xw0F7tz99MMgrPwWRDs6IhZJ+kbKbtE2a/IFONj7sIq8hOnmmc4r56M9Is83mDx3lgLBHCPAM5JRs/Ph1ovQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 963)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:22 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 9174)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:23 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"7cq6acL+i8zYtZcDN0KbwqTHZAegAjkSX5g3VAzYw0VKPQL3AnrY8Sr9rh7a1aHywZ9gtBWso/x125NLYUgkQw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 965)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:23 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 9189)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:23 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"GdN5t2X2dca8elLZaDVNBBqmlyl1umtX6YTP2JNTRk6+JMEppXIm+04ya8SFonc0f/6TmsAU8bnDx2vH/sOhSA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms | Allocations: 957)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:23 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms | Allocations: 9193)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:24 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pMB3HyQPyW4rh3gW74oTSeAWutVtOG8O0DTnO58/WJUDN8+B5IuaU9nPQQsCHSl5hU6+ZtiW9eD6d0Mk8q+/kw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms | Allocations: 970)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:24 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 9197)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:25 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"n3n3RTLUd3Na5SKuJqCsISOD2M5/KsszPKy5xCdj+N44jk/b8lAkTqitG7PLN5YRRtvcfcqEUd0W7x3bSvMf2A==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms | Allocations: 959)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:25 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 9185)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:25 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"2ZhVhT22G+mZmnwukwUTfGNar8XV7L/lmSFkQ5x/wat+b+0b/TJI1GvSRTN+kilMBgKrdmBCJQuzYsBc8e8mrQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 969)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:25 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 9191)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:25 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"rcHYbceHm+Td/XlmbZQICHOi0dKY0Pg6GVpd6EnSSiUKNmDzBwPI2S+1QHuAAzI4FvrVYS1+YtQzGfn3JEKtIw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.8ms | Allocations: 975)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:25 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 9183)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:27 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0sHAq9NTT462mDutY27opsQx1IOdHbwwYYlnK27neXB1Nng1E9ccs0TQArCO+dKWoWnQMCizJt5LysM0A3eedg==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms | Allocations: 961)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:27 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 9187)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:32 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"HDLAf7F9vxDTEBVkHuKY71UiUZBa99OGzjoSMp9G0Uu7xXjhcfnsLSFYLHnzdaLfMHpVI+9ZSWjkebYt8tY2TQ==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mateusz.kowalski@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 278ms (ActiveRecord: 0.4ms | Allocations: 1018)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:10:32 +0200
+Processing by BookedLectureRoomsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1452)
+
+
+  
+NoMethodError (undefined method `+' for :hours:Symbol):
+  
+app/models/booked_lecture_room.rb:8:in `<class:BookedLectureRoom>'
+app/models/booked_lecture_room.rb:3:in `<main>'
+app/controllers/booked_lecture_rooms_controller.rb:7:in `index'
+Started GET "/login" for ::1 at 2020-07-10 02:10:34 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1804)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 9188)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:35 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"4ZHYBgBfAmghjlNyjXvZu2iuXuk7a+kNR+W2PeUki2VGZmCYwNtRVdPGam9g7OOLDfZaWo7Fc+NtphIiiLRsYw==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mateusz.kowalski@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 291ms (ActiveRecord: 0.9ms | Allocations: 1024)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:35 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 9201)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:10:38 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"CCsMBCLMCqpxW/23JB4I4LUzpVMUMu+wJO3pRLHRrMqv3LSa4khZl4MTxKrJiTLQ0Guh4KGcdV4Ork1b3EFLzA==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mateusz.kowalski@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 277ms (ActiveRecord: 0.4ms | Allocations: 1003)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:10:39 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.5ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 6996)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 19.5ms | ActiveRecord: 5.1ms | Allocations: 15138)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:42 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1812)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 9180)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:10:43 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 9174)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:11:20 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.7ms | Allocations: 1305)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2740)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 10138)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:11:21 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"wu5aenhX/tbtPSlo0JADgEprs4PbN1TBK37xQzavYk8bZ+c+i4g8BQ1tKNynnQCzg/t7kWaNKeKcU14SuJmjqA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 971)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:11:21 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 9193)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:11:23 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.3ms | Allocations: 1302)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 10136)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:11:25 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"E1/kSNBBRVCKWLujv2wh5pawNpmxyV/0oT5lOFaCHIzK1lkMI56Hg2oIuhfIYSLVXyD+iwxzItcWE8pp2LTdaw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 999)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:11:25 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 9195)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:11:27 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 1302)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 10148)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:11:27 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"N4wscuHSfxKFulvSg0zVB+T3vAwhnBjhl1x791ubHHzuBZE2Eg29wWXqWmb0QdY0LWd0HpwmZcIgcdSm1a3dmw==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms | Allocations: 1005)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:11:27 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9183)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:11:43 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.8ms | Allocations: 1302)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2729)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 10133)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:11:53 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 1729)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3316)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 11645)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:11:56 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XoTFIO7/MdpqPgDkCdElN58Tz36K3KlUd0wPBB7eIab5c32+Lnti55h2OfnkRh8H+kvLzT9yM7pdD6sbc07GoA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 368)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:11:56 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 10264)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:11:57 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.0ms | Allocations: 1319)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2456)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 9861)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:12:11 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"m2rlM9bpz2OQJwjuO0MiPg5GmeDpwZbkttTALHNn3tI8nV2tFm2cXmJvMfPW1BgOax6dU1xvDAqcl2QzHvc51A=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 372)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:12:11 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 9182)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:13:48 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2302)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 10597)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:13:49 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RkIU8XBL1utvsyOuXK8RITUUIpqSauTcf8R4y5Yoq3LhtaxvsM+F1p37GrOxOCsRUEwmKSfEfjJVh9zU+7hMdA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 366)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:13:49 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1809)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 9206)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:13:50 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.2ms | Allocations: 1729)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.6ms | Allocations: 3308)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 11290)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:13:52 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"a2iybh9v4geCRg3icFunEl3HsaqCynvhK4oG1P7XUvnMnwrw3+uxOnAONP+dzJ0iOJ+1GTdk4Q8ByaLLk0e1/w=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 356)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:13:52 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1811)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 9219)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:14:35 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.9ms | Allocations: 1311)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 9848)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:14:42 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1226)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.5ms | Allocations: 8867)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:14:45 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 954)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.4ms | Allocations: 8452)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:15:17 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 1729)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3285)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 11593)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:15:28 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 1729)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3286)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 11603)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:16:23 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.1ms | Allocations: 1731)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 3287)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 11594)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:16:43 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1317)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2432)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 9817)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:17:55 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 1568)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 3090)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4298)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+        <% user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :first_name %>
+    <%= form.text_field :first_name %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit, class: "btn btn-primary" %>
+  </div>
+<% end %>
+
+<%= form_for(:session, url: login_path, method: :post, html: { class: "navbar-form pull-right form-inline", role: "form", id: "navbar-login" }) do |f| %>
+  			<div class="form-group-sm">
+    			<%= f.text_field :email, class: 'form-control', placeholder: 'Adres e-mail' %>
+  			</div>
+  			<div class="form-group-sm">
+			  &nbsp;
+    			<%= f.password_field :password, class: 'form-control',id: 'password',placeholder: 'Hasło' %>
+  			</div>
+  			<div class="sumbit">
+			  &nbsp;&nbsp; 
+  				<%= f.submit "Zaloguj", class: "btn btn-primary" %>
+  				<a class="btn btn-success" href="users/new" role="button">Rejestracja</a>
+			</div>
+		<% end %>
+
+):
+1:    <%= form_with(model: user, local: true) do |form| %>
+2:      <% if user.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% user.errors.full_messages.each do |message| %>
+8:              <li><%= message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div class="form-group">
+15:        <%= form.label :first_name %>
+16:        <%= form.text_field :first_name %>
+17:      </div>
+18:    
+19:      <div class="form-group">
+20:        <%= form.label :last_name %>
+21:        <%= form.text_field :last_name %>
+22:      </div>
+23:    
+24:      <div class="form-group">
+25:        <%= form.label :email %>
+26:        <%= form.text_field :email %>
+27:      </div>
+28:    
+29:      <div class="form-group">
+30:        <%= form.label :password %>
+31:        <%= form.password_field :password %>
+32:      </div>
+33:    
+34:      <div class="form-group">
+35:        <%= form.label :password_confirmation %>
+36:        <%= form.password_field :password_confirmation %>
+37:      </div>
+38:    
+39:      <div class="actions">
+40:        <%= form.submit, class: "btn btn-primary" %>
+41:      </div>
+42:    <% end %>
+43:    
+44:    <%= form_for(:session, url: login_path, method: :post, html: { class: "navbar-form pull-right form-inline", role: "form", id: "navbar-login" }) do |f| %>
+45:      			<div class="form-group-sm">
+46:        			<%= f.text_field :email, class: 'form-control', placeholder: 'Adres e-mail' %>
+47:      			</div>
+48:      			<div class="form-group-sm">
+49:    			  &nbsp;
+50:        			<%= f.password_field :password, class: 'form-control',id: 'password',placeholder: 'Hasło' %>
+51:      			</div>
+52:      			<div class="sumbit">
+53:    			  &nbsp;&nbsp; 
+54:      				<%= f.submit "Zaloguj", class: "btn btn-primary" %>
+55:      				<a class="btn btn-success" href="users/new" role="button">Rejestracja</a>
+56:    			</div>
+57:    		<% end %>
+  
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/new.html.erb:45
+Started GET "/users/new" for ::1 at 2020-07-10 02:18:31 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.8ms | Allocations: 1460)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2984)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4197)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+        <% user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :first_name %>
+    <%= form.text_field :first_name %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit, class: "btn btn-primary" %>
+  </div>
+<% end %>
+
+
+
+):
+1:    <%= form_with(model: user, local: true) do |form| %>
+2:      <% if user.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% user.errors.full_messages.each do |message| %>
+8:              <li><%= message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div class="form-group">
+15:        <%= form.label :first_name %>
+16:        <%= form.text_field :first_name %>
+17:      </div>
+18:    
+19:      <div class="form-group">
+20:        <%= form.label :last_name %>
+21:        <%= form.text_field :last_name %>
+22:      </div>
+23:    
+24:      <div class="form-group">
+25:        <%= form.label :email %>
+26:        <%= form.text_field :email %>
+27:      </div>
+28:    
+29:      <div class="form-group">
+30:        <%= form.label :password %>
+31:        <%= form.password_field :password %>
+32:      </div>
+33:    
+34:      <div class="form-group">
+35:        <%= form.label :password_confirmation %>
+36:        <%= form.password_field :password_confirmation %>
+37:      </div>
+38:    
+39:      <div class="actions">
+40:        <%= form.submit, class: "btn btn-primary" %>
+41:      </div>
+42:    <% end %>
+  
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/new.html.erb:45
+Started GET "/users/new" for ::1 at 2020-07-10 02:18:39 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 1460)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2984)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4197)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+        <% user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :first_name %>
+    <%= form.text_field :first_name %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit, class: "btn btn-success" %>
+  </div>
+<% end %>
+
+
+
+):
+1:    <%= form_with(model: user, local: true) do |form| %>
+2:      <% if user.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% user.errors.full_messages.each do |message| %>
+8:              <li><%= message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div class="form-group">
+15:        <%= form.label :first_name %>
+16:        <%= form.text_field :first_name %>
+17:      </div>
+18:    
+19:      <div class="form-group">
+20:        <%= form.label :last_name %>
+21:        <%= form.text_field :last_name %>
+22:      </div>
+23:    
+24:      <div class="form-group">
+25:        <%= form.label :email %>
+26:        <%= form.text_field :email %>
+27:      </div>
+28:    
+29:      <div class="form-group">
+30:        <%= form.label :password %>
+31:        <%= form.password_field :password %>
+32:      </div>
+33:    
+34:      <div class="form-group">
+35:        <%= form.label :password_confirmation %>
+36:        <%= form.password_field :password_confirmation %>
+37:      </div>
+38:    
+39:      <div class="actions">
+40:        <%= form.submit, class: "btn btn-success" %>
+41:      </div>
+42:    <% end %>
+  
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/_form.html.erb:40: syntax error, unexpected tLABEL, expecting '='
+app/views/users/new.html.erb:45
+Started GET "/users/new" for ::1 at 2020-07-10 02:19:40 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.6ms | Allocations: 1369)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2926)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 11242)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:20:30 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.5ms | Allocations: 1236)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2791)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 11094)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:20:35 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 1236)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2791)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 11088)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:21:13 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 1256)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2811)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 11122)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:21:42 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.0ms | Allocations: 780)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2335)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 10646)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:22:39 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.0ms | Allocations: 860)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2415)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 10724)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:23:02 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"vzXZMV0BxOKEXdGsaXQJ8i2qQovfGLZcLu1qNqBcWIkYwmGvnYWX33YV6LGE4zPCSPJGOGq2LLIErs4pzcy/jw==", "session"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 950)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:23:02 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 10255)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:23:29 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"vzXZMV0BxOKEXdGsaXQJ8i2qQovfGLZcLu1qNqBcWIkYwmGvnYWX33YV6LGE4zPCSPJGOGq2LLIErs4pzcy/jw==", "session"=>{"first_name"=>"Adam", "last_name"=>"Sus", "email"=>"as@interia.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "as@interia.pl"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 969)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:23:29 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 9188)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:24:14 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 10601)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:24:15 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 7.3ms | Allocations: 2269)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 3792)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 4846)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x00007fc54c0086b0>):
+    1: 
+    2: 
+    3: 
+    4: <%= form_for(model: user, local: true, html: {role: "form", id: "navbar-login" }) do |form| %>
+    5:   <% if user.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  
+app/views/users/_form.html.erb:4
+app/views/users/new.html.erb:45
+Started GET "/users/new" for ::1 at 2020-07-10 02:24:38 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 884)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2442)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 10775)
+
+
+Started POST "/users" for ::1 at 2020-07-10 02:24:51 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"OC8lVCol8sHQlvnDWYHh1wFF9RXysZw062Vn0nnh7FCf2J3K6qGh/CLewN60FtvnZB3xpkcfBtrBJsPNFHELVg==", "user"=>{"first_name"=>"Adam", "last_name"=>"Ku", "email"=>"ak@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["first_name", "Adam"], ["last_name", "Ku"], ["email", "ak@gmail.com"], ["password_digest", "$2a$12$bbS8hiXz3DiZY/ltDaaMpuv3JwpnKYpkn.fpM1pHwBLFQ2hBjRITy"], ["created_at", "2020-07-10 00:24:51.843363"], ["updated_at", "2020-07-10 00:24:51.843363"]]
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 283ms (ActiveRecord: 3.0ms | Allocations: 3224)
+
+
+Started GET "/users/3" for ::1 at 2020-07-10 02:24:51 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 282)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.4ms | Allocations: 8513)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:24:55 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1353)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 8986)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:25:00 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OC8lVCol8sHQlvnDWYHh1wFF9RXysZw062Vn0nnh7FCf2J3K6qGh/CLewN60FtvnZB3xpkcfBtrBJsPNFHELVg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 341)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:25:00 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 10241)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:25:01 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 498)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1613)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 9003)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:25:13 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"m3lJs3BO4R1y+K1BPFedhtFRzkoObDA+Du5MIXvkVnY8jvEtsMqyIICwlFzRwKe2tAnK+bvCqtAkreg+FnSxcA==", "session"=>{"email"=>"ak@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ak@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 272ms (ActiveRecord: 0.3ms | Allocations: 992)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:25:13 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.4ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1343)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.4ms | Allocations: 9426)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:25:15 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1811)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 9186)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:25:16 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 498)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1613)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 9007)
+
+
+Started POST "/users" for ::1 at 2020-07-10 02:25:19 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"VSt3OD927ycns+A653iC0D0uh4Igmv3EHMsZ9At4sgucdBNVChsa+dUP3EE+UfZdUyv3rughm0dBVvRyKTfscQ==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 659)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1772)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 10157)
+
+
+Started POST "/users" for ::1 at 2020-07-10 02:25:26 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"SGpLhkDWGVz3+PcdrzglvTQMPSYh7lJ0RehpTtKDQezvnfMYgFJKYQWwzgBCrx+NUVQ5lZRAyJpvq81RvxOm6g==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.0ms | Allocations: 645)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1758)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 10054)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:26:03 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1355)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.3ms | Allocations: 9769)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:26:07 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2434)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 9957)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:26:40 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.1ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 10756)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:26:48 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 10744)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:27:25 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.6ms | Allocations: 496)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1611)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 9004)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:27:46 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 10748)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:27:50 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2438)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 10745)
+
+
+Started POST "/users" for ::1 at 2020-07-10 02:28:12 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"+50SHkmNtYlaTx6nk6/3wlSYJUXHMEfp+NP+HsDYeF5caqqAiQnmtKgHJ7p+OM3yMcAh9nKe3QfSkFoBrUifWA==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 651)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1766)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 10065)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:28:44 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1362)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.4ms | Allocations: 8992)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:28:49 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.6ms | Allocations: 493)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1607)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 9006)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:28:49 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 8995)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:28:50 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.7ms | Allocations: 490)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 8997)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:28:51 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1tkFaN/Y/mfvaZjzNAcJUGDPwHSHqIzzQQ5qhODoQvJxLr32H1ytWh0hoe7ZkDNgBZfExzIGFh1rTc6bjXil9A=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 343)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:28:51 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 10241)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:31:06 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.0ms | Allocations: 1743)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 3305)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 11615)
+
+
+Started POST "/users" for ::1 at 2020-07-10 02:31:08 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"s0sAdHsRd8fJzi9eCBtwqNx5tbHTDPDpwFaTKxD7ri56FGQZTnyCGTtyEyXRMgQlsnzFnRu3lmqdy36tMrTwVA==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 1474)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2589)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 10929)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:31:41 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1360)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 0.3ms | Allocations: 9777)
+
+
+Started GET "/users" for ::1 at 2020-07-10 02:31:43 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1094)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.4ms | Allocations: 8585)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:31:44 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.6ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2438)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 9960)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:31:45 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 490)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 8996)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:31:46 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 490)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 9001)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:31:48 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CPPX02BSx1x7Ky6eayEKfrDymMG1IiLgGMXqt4j8rD+vBG9NoNaUYYljF4OGtjBO1aqccgCMuA4yhk6o5WxLOQ=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 353)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:31:48 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 10252)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:31:52 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 498)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1614)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 9010)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:31:55 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VmKFtfjUhfWYbHDWhnqSZsrjaYcThNijn4p/Cj7IbeXxlT0rOFDWyGokSctr7ahWr7ttNKYqQk21ydsVU1iK4w=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 333)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:31:55 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 9171)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:31:57 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 490)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 8985)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:32:45 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mQExAOf3SgU/3bJg0sbxKvIwftdf81K4SUgwIj1jUXw+9omeJ3MZOM2Vi30/Ucsal2h6ZOpdyFZjC5Q9UPO2eg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 355)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:32:45 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 9182)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:32:48 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"NZN6YWjbLh+FdAzUDiPMFTcyuIMGr8SrpjKEElsdixeSZML/qF99Inc8NcnjtPYlUmq8MLMBXkWMcSANNo1sEQ==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mateusz.kowalski@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 279ms (ActiveRecord: 0.4ms | Allocations: 990)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:32:49 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1341)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 9412)
+
+
+Started GET "/booked_lecture_rooms/1" for ::1 at 2020-07-10 02:32:52 +0200
+Processing by BookedLectureRoomsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBookedLectureRoom Load (0.4ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  Rendering booked_lecture_rooms/show.html.erb within layouts/application
+  Rendered booked_lecture_rooms/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 363)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 19.7ms | ActiveRecord: 0.4ms | Allocations: 8696)
+
+
+Started GET "/booked_lecture_rooms/1/edit" for ::1 at 2020-07-10 02:32:56 +0200
+Processing by BookedLectureRoomsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBookedLectureRoom Load (0.6ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  Rendering booked_lecture_rooms/edit.html.erb within layouts/application
+  Rendered booked_lecture_rooms/_form.html.erb (Duration: 15.5ms | Allocations: 6775)
+  Rendered booked_lecture_rooms/edit.html.erb within layouts/application (Duration: 17.2ms | Allocations: 7169)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 24.5ms | ActiveRecord: 0.6ms | Allocations: 15297)
+
+
+Started DELETE "/booked_lecture_rooms/2" for ::1 at 2020-07-10 02:33:03 +0200
+Processing by BookedLectureRoomsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2VSPGr2Go+R7l76Bjc38AafAfS2YgWofvsRHttQIQ2l+ozeEfQLw2Ynfh5xgWsYxwph5ni0v8PGUh+OpuZikbw==", "id"=>"2"}
+  [1m[36mBookedLectureRoom Load (0.4ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:57:in `destroy'
+  [1m[36mBookedLectureRoom Destroy (0.4ms)[0m  [1m[31mDELETE FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:57:in `destroy'
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 10ms (ActiveRecord: 2.9ms | Allocations: 2909)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:33:03 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 869)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.3ms | Allocations: 8372)
+
+
+Started DELETE "/booked_lecture_rooms/1" for ::1 at 2020-07-10 02:33:06 +0200
+Processing by BookedLectureRoomsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nQjEJHSycGr183kDPSJJ1BEIRNimOYxaaZFa29ydO1o6/3y6tDYjVwe7QB7QtXPkdFBAaxOXFrRD0v7EsQ3cXA==", "id"=>"1"}
+  [1m[36mBookedLectureRoom Load (0.5ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:57:in `destroy'
+  [1m[36mBookedLectureRoom Destroy (0.3ms)[0m  [1m[31mDELETE FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:57:in `destroy'
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 8ms (ActiveRecord: 2.7ms | Allocations: 2896)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:33:06 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 693)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.3ms | Allocations: 8209)
+
+
+Started GET "/booked_lecture_rooms/new" for ::1 at 2020-07-10 02:33:26 +0200
+Processing by BookedLectureRoomsController#new as HTML
+  Rendering booked_lecture_rooms/new.html.erb within layouts/application
+  Rendered booked_lecture_rooms/_form.html.erb (Duration: 5.1ms | Allocations: 3694)
+  Rendered booked_lecture_rooms/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3904)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 11533)
+
+
+Started POST "/booked_lecture_rooms" for ::1 at 2020-07-10 02:33:32 +0200
+Processing by BookedLectureRoomsController#create as HTML
+  Parameters: {"authenticity_token"=>"TStBMb1YlHFopHS4hJFPbcnwFi7LuKNO4cq2yj9B3yp3olEzUqlFGTHVNVOeT4rmaQgSDTHn7BbEZQ79KsyXDA==", "booked_lecture_room"=>{"name"=>"111", "person"=>"Kowalski", "data(1i)"=>"2020", "data(2i)"=>"7", "data(3i)"=>"10", "time(1i)"=>"2020", "time(2i)"=>"7", "time(3i)"=>"10", "time(4i)"=>"00", "time(5i)"=>"33", "hours"=>"1"}, "commit"=>"Create Booked lecture room"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+  [1m[36mBookedLectureRoom Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."name" = $1 AND "booked_lecture_rooms"."time" = $2 LIMIT $3[0m  [["name", "111"], ["time", "00:33:00"], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+  [1m[36mBookedLectureRoom Create (1.0ms)[0m  [1m[32mINSERT INTO "booked_lecture_rooms" ("name", "person", "data", "time", "hours", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "111"], ["person", "Kowalski"], ["data", "2020-07-10"], ["time", "00:33:00"], ["hours", 1], ["created_at", "2020-07-10 00:33:32.739902"], ["updated_at", "2020-07-10 00:33:32.739902"]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/booked_lecture_rooms/3
+Completed 302 Found in 15ms (ActiveRecord: 4.4ms | Allocations: 4746)
+
+
+Started GET "/booked_lecture_rooms/3" for ::1 at 2020-07-10 02:33:32 +0200
+Processing by BookedLectureRoomsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBookedLectureRoom Load (0.4ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  Rendering booked_lecture_rooms/show.html.erb within layouts/application
+  Rendered booked_lecture_rooms/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 19.1ms | ActiveRecord: 0.4ms | Allocations: 8233)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:33:34 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.5ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 867)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.5ms | Allocations: 8356)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:36:14 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.3ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 864)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms | Allocations: 8353)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:15 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1812)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 9182)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:16 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 9180)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:19 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"HyPPoSOx1xi6hw6vWovgsu+r6KIhgZfOyn2nxCaPmefGqnLl0G4Vy1rXDxsthuOBJjsgsJw76u19UAiVqLlYAA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms | Allocations: 985)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:19 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9187)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:19 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"PAw+fedSjyEvl2V1750WF3znwsYn6Z7MdhE7ungsVdWb+4bjJ9bcHN3fXGgCCiwnGb/GdZJHBCJcUp+lFbyy0w==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 971)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:20 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 9183)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:20 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"TmzA8KaHePF08aY03w3zUgez6PFTB+s014R6QOXPRqvpm3huZgMrzIa5nykymsliYuvsQuapcdr9x95fiF+hrQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 984)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:20 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 9203)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:20 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"4OLRkhrrVg5GXlJLjAWB9OorDH9FaqFlVp4Mrlxta25HFWkM2m8FM7QWa1ZhkrvEj3MIzPDEO4t83aixMf2MaA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms | Allocations: 969)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:20 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 9189)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:21 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"huooLzf8yhkzkYdXbPJH4Wrr0kzHTIOY9Z1j7k7H9S4hHZCx93iZJMHZvkqBZX3RD7PW/3LiGXbf3sfxI1cSKA==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms | Allocations: 955)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:21 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 9203)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:21 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"nHZQp1gEfIWejnkdvKs34BzLnLTip69dRZEwIpLjZeg7geg5mIAvuGzGQABRPA3QeZOYB1cJNbNv0pQ9/3OC7g==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms | Allocations: 959)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:21 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 9191)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:22 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"jEPYBEUyqZ526V8aeEoK9/BAK+SoRbxc8gm+wynyceMrtGCahbb6o4ShZgeV3TDHlRgvVx3rJrLYShrcRGKW5Q==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 965)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:22 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 9205)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:23 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"XeNG9qVmhzaJycTuNIKthZXUHG93BLvcASUsxZjSUTf6FP5oZeLUC3uB/fPZFZe18IwY3MKqITIrZoja9UK2MQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms | Allocations: 954)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:23 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 9181)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:23 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0DGOXKXT13eGVznUf9fQj3u4UsVRyFHfpQHoi+11oqR3xjbCZVeESnQfAMmSQOq/HuBWduRmyzGPQkyUgOVFog==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.5ms | Allocations: 959)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:23 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 9189)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:36:25 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"LH8y8SP/mnS2B66DPRnThNa2Z+/CIAjeLO6ytQtHIRSLiIpv43vJSURPl57Qjum0s+5jXHeOkjAGrRaqZtfGEg==", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/login
+Completed 302 Found in 5ms (ActiveRecord: 0.8ms | Allocations: 959)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:36:25 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 9183)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:47:49 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 498)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1613)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 9008)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:49:16 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.0ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 10777)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:50:23 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.4ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2449)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 10768)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:50:35 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2442)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 10764)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:50:57 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.4ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2448)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 10776)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:51:47 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 10767)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:52:22 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 10772)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:52:34 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2455)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 10792)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:54:36 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.5ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2438)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 10784)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:55:08 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 10765)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:56:46 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YrthOpzlpj+MqE7G/Xsi9VoQAk7Us7YYKXTXlL19LkrFTNmkXGH1An7gd9sQ7BjFP0gG/WEdLPYDN3OL0O3JTA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 368)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:56:46 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 10262)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 02:56:53 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 498)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1614)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 9019)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 02:57:46 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WxLgFvxWzrIEP5dzJpH0Vckvg5B/yI5LPwrU9z6oJyr85ViIPNKdj/Z3rm7LBs5lrHeHI8pmFKUVSXDoUzjALA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 360)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:57:46 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1804)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 9191)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:57:55 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"l/FzgKOwFl400P60Up+gS0eNpOAYE33eN5712/Nm4XYwBsseYzRFY8aYx6m/CJp7ItWgU6295zAd3VHEnvYGcA==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mateusz.kowalski@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 304ms (ActiveRecord: 1.2ms | Allocations: 1094)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:57:55 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.8ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1220)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.8ms | Allocations: 9309)
+
+
+Started GET "/booked_lecture_rooms/3" for ::1 at 2020-07-10 02:58:02 +0200
+Processing by BookedLectureRoomsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBookedLectureRoom Load (0.5ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  Rendering booked_lecture_rooms/show.html.erb within layouts/application
+  Rendered booked_lecture_rooms/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 356)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.5ms | Allocations: 8593)
+
+
+Started GET "/booked_lecture_rooms/3/edit" for ::1 at 2020-07-10 02:58:06 +0200
+Processing by BookedLectureRoomsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBookedLectureRoom Load (0.4ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms" WHERE "booked_lecture_rooms"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/booked_lecture_rooms_controller.rb:67:in `set_booked_lecture_room'
+  Rendering booked_lecture_rooms/edit.html.erb within layouts/application
+  Rendered booked_lecture_rooms/_form.html.erb (Duration: 7.0ms | Allocations: 4124)
+  Rendered booked_lecture_rooms/edit.html.erb within layouts/application (Duration: 8.2ms | Allocations: 4510)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.4ms | Allocations: 12722)
+
+
+Started GET "/login" for ::1 at 2020-07-10 02:58:47 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1812)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 9178)
+
+
+Started POST "/login" for ::1 at 2020-07-10 02:59:55 +0200
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ANh8PTcTLffwcpZsYLZyinn+bFx8i3ltDUWLIy562ROnL8Sj95d+ygI6r3GNIUi6HKZo78kl44MnBi88Q+o+FQ==", "session"=>{"email"=>"mateusz.kowalski@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Zaloguj"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mateusz.kowalski@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://localhost:3000/booked_lecture_rooms
+Completed 302 Found in 316ms (ActiveRecord: 1.8ms | Allocations: 996)
+
+
+Started GET "/booked_lecture_rooms" for ::1 at 2020-07-10 02:59:55 +0200
+Processing by BookedLectureRoomsController#index as HTML
+  Rendering booked_lecture_rooms/index.html.erb within layouts/application
+  [1m[36mBookedLectureRoom Load (0.4ms)[0m  [1m[34mSELECT "booked_lecture_rooms".* FROM "booked_lecture_rooms"[0m
+  ↳ app/views/booked_lecture_rooms/index.html.erb:18
+  Rendered booked_lecture_rooms/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 868)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.4ms | Allocations: 8386)
+
+
+Started GET "/login" for ::1 at 2020-07-10 03:00:02 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 9166)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 03:00:04 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Aex2EmrqPPJx0fPRct8dqv0HSqFk8R/8rLQb3AoJ0qimG86Mqm5vz4OZysyfSCeamF9OEtFfhRKG97/DZ5k1rg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 347)
+
+
+Started GET "/login" for ::1 at 2020-07-10 03:00:04 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 9176)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:04:46 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2450)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms | Allocations: 10758)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:05:14 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.4ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 10748)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:05:34 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 16.4ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 20.1ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms | Allocations: 10756)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:06:08 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 10755)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:06:15 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 10749)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:06:31 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 5.6ms | Allocations: 882)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2450)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 10757)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:06:41 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.9ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 10758)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:06:47 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.3ms | Allocations: 881)
+  Rendered users/new.html.erb within layouts/application (Duration: 19.2ms | Allocations: 2448)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms | Allocations: 10753)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:07:52 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.4ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 10753)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:08:06 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.2ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 10749)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 03:11:31 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Ce6sIMzvFf3pvLSwMzJwsDE/0EiXae3A8R2qwXPXmyOuGRS+DGtGwBv0ja3epUqAVGfU+yLHdy7bXg7eHkd8JQ=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 349)
+
+
+Started GET "/login" for ::1 at 2020-07-10 03:11:31 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 10601)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:11:36 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.9ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 10387)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 03:11:42 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nd4yTPnpOiokQv+6n2plwaJhKjXhv/wTgzb2qA3Yw0A6KYrSOW1pF9YKxqdy/V/xxzkuhlQRZv2pdVK3YEgkRg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 335)
+
+
+Started GET "/login" for ::1 at 2020-07-10 03:11:42 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1812)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 9184)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:11:46 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 490)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1604)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 8989)
+
+
+Started POST "/users" for ::1 at 2020-07-10 03:11:50 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"vJvMxXFASreOM8J9MR9eJBRHsPNAWnwUy0yP3Yy9uNN1xKioRC2/aXyP/gboNiqpekLA34jhGpeW0WJbrvLmqQ==", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.9ms | Allocations: 645)
+  Rendered users/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1758)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 10090)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 03:12:10 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HVO4s9JRkeaHwxPrp9+Y96wyruRN0VhS8VdFGoENWoC6pAAtEtXC23WLKvZKSKLHyWqqV/h/wrzbFOEF7J29hg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 341)
+
+
+Started GET "/login" for ::1 at 2020-07-10 03:12:10 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 9164)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:12:19 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.0ms | Allocations: 490)
+  Rendered users/new.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1603)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms | Allocations: 8991)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:13:14 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 1415)
+  Rendered users/new.html.erb within layouts/application (Duration: 32.8ms | Allocations: 2951)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 4168)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+        <% user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.text_field :first_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Imię' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.text_field :last_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Nazwisko' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.text_field :email, class: 'form-control',id: 'password_confirmation',placeholder: 'E-mail' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.password_field :password, class: 'form-control',id: 'password_confirmation',placeholder: 'Hasło' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.password_field :password_confirmation, class: 'form-control',id: 'password_confirmation',placeholder: 'Powtórz hasło' %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Zarejestruj", class: "btn btn-success", style="text-align: right; %>
+  </div>
+<% end %>
+
+
+
+):
+1:    <%= form_with(model: user, local: true) do |form| %>
+2:      <% if user.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% user.errors.full_messages.each do |message| %>
+8:              <li><%= message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div class="form-group">
+15:        <%= form.text_field :first_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Imię' %>
+16:      </div>
+17:    
+18:      <div class="form-group">
+19:        <%= form.text_field :last_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Nazwisko' %>
+20:      </div>
+21:    
+22:      <div class="form-group">
+23:        <%= form.text_field :email, class: 'form-control',id: 'password_confirmation',placeholder: 'E-mail' %>
+24:      </div>
+25:    
+26:      <div class="form-group">
+27:        <%= form.password_field :password, class: 'form-control',id: 'password_confirmation',placeholder: 'Hasło' %>
+28:      </div>
+29:    
+30:      <div class="form-group">
+31:        <%= form.password_field :password_confirmation, class: 'form-control',id: 'password_confirmation',placeholder: 'Powtórz hasło' %>
+32:      </div>
+33:    
+34:      <div class="actions">
+35:        <%= form.submit "Zarejestruj", class: "btn btn-success", style="text-align: right; %>
+36:      </div>
+37:    <% end %>
+  
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/new.html.erb:47
+Started GET "/users/new" for ::1 at 2020-07-10 03:13:15 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.6ms | Allocations: 1397)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2479)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2954)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+        <% user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.text_field :first_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Imię' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.text_field :last_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Nazwisko' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.text_field :email, class: 'form-control',id: 'password_confirmation',placeholder: 'E-mail' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.password_field :password, class: 'form-control',id: 'password_confirmation',placeholder: 'Hasło' %>
+  </div>
+
+  <div class="form-group">
+    <%= form.password_field :password_confirmation, class: 'form-control',id: 'password_confirmation',placeholder: 'Powtórz hasło' %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Zarejestruj", class: "btn btn-success", style="text-align: right; %>
+  </div>
+<% end %>
+
+
+
+):
+1:    <%= form_with(model: user, local: true) do |form| %>
+2:      <% if user.errors.any? %>
+3:        <div id="error_explanation">
+4:          <h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% user.errors.full_messages.each do |message| %>
+8:              <li><%= message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div class="form-group">
+15:        <%= form.text_field :first_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Imię' %>
+16:      </div>
+17:    
+18:      <div class="form-group">
+19:        <%= form.text_field :last_name, class: 'form-control',id: 'password_confirmation',placeholder: 'Nazwisko' %>
+20:      </div>
+21:    
+22:      <div class="form-group">
+23:        <%= form.text_field :email, class: 'form-control',id: 'password_confirmation',placeholder: 'E-mail' %>
+24:      </div>
+25:    
+26:      <div class="form-group">
+27:        <%= form.password_field :password, class: 'form-control',id: 'password_confirmation',placeholder: 'Hasło' %>
+28:      </div>
+29:    
+30:      <div class="form-group">
+31:        <%= form.password_field :password_confirmation, class: 'form-control',id: 'password_confirmation',placeholder: 'Powtórz hasło' %>
+32:      </div>
+33:    
+34:      <div class="actions">
+35:        <%= form.submit "Zarejestruj", class: "btn btn-success", style="text-align: right; %>
+36:      </div>
+37:    <% end %>
+  
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/_form.html.erb:42: unterminated string meets end of file
+app/views/users/_form.html.erb:42: syntax error, unexpected end-of-input, expecting =>
+app/views/users/new.html.erb:47
+Started GET "/users/new" for ::1 at 2020-07-10 03:14:17 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 877)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 10764)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:14:41 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 10754)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:14:49 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.4ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 10748)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:15:08 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.4ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 10.3ms | Allocations: 2443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 10748)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:15:21 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 6.7ms | Allocations: 876)
+  Rendered users/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 2443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 10754)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:15:26 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | Allocations: 882)
+  Rendered users/new.html.erb within layouts/application (Duration: 20.7ms | Allocations: 2451)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 10765)
+
+
+Started POST "/users" for ::1 at 2020-07-10 03:15:51 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"j7RSELg6NJ1iHNjRQa+iKSO+WxZ5iHw81sUcL1D7QbooQ+qOeL5noJBU4cysOJgZRuZfpcwm5tL8hrgwPWumvA==", "user"=>{"first_name"=>"Mateusz", "last_name"=>"Borek", "email"=>"mb@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["first_name", "Mateusz"], ["last_name", "Borek"], ["email", "mb@gmail.com"], ["password_digest", "$2a$12$E9Pm8baaOZNqMEtp.NrEM.JtO/F3sDyi5.SIBQv7vSfnjqxbuijZe"], ["created_at", "2020-07-10 01:15:52.181672"], ["updated_at", "2020-07-10 01:15:52.181672"]]
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 325ms (ActiveRecord: 2.5ms | Allocations: 2964)
+
+
+Started GET "/users/4" for ::1 at 2020-07-10 03:15:52 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 13.9ms | ActiveRecord: 0.6ms | Allocations: 8516)
+
+
+Started GET "/users" for ::1 at 2020-07-10 03:15:53 +0200
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:16
+  Rendered users/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1490)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 1.7ms | Allocations: 9123)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 03:15:59 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"j7RSELg6NJ1iHNjRQa+iKSO+WxZ5iHw81sUcL1D7QbooQ+qOeL5noJBU4cysOJgZRuZfpcwm5tL8hrgwPWumvA=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 337)
+
+
+Started GET "/login" for ::1 at 2020-07-10 03:16:00 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 10247)
+
+
+Started GET "/users/new" for ::1 at 2020-07-10 03:16:54 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 498)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1613)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 8995)
+
+
+Started DELETE "/logout" for ::1 at 2020-07-10 03:16:57 +0200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MpzLflKyGnB396XNTTHTr0iqPg9cBwqLC+N74upG4KiVa3PgkjZJTYW/nNCgpumfLfI6vOmpkGUhoN/9h9YHrg=="}
+Redirected to http://localhost:3000/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 347)
+
+
+Started GET "/login" for ::1 at 2020-07-10 03:16:57 +0200
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 9171)
+
+
