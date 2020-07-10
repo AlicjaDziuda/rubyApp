@@ -32,12 +32,11 @@
             <%# <a class="nav-link" href="#">Link</a> %>
           </li>
         </ul> 
-
-        <%# <form class="navbar navbar-expand navbar-light bg-light"> %>
-
-		<%= form_for(:session, url: login_path, method: :post, html: { class: "navbar-form pull-right form-inline", role: "form", id: "navbar-login" }) do |f| %>
+	
+		<%= form_for(:session, url: login_path, method: :post, html: 
+		{ class: "navbar-form pull-right form-inline", role: "form", id: "navbar-login" }) do |f| %>
   			<div class="form-group-sm">
-    			<%= f.text_field :email, class: 'form-control', placeholder: 'Adres e-mail' %>
+    			<%= f.text_field :email, class: "form-control", placeholder: "Adres e-mail" %>
   			</div>
   			<div class="form-group-sm">
 			  &nbsp;
@@ -48,9 +47,11 @@
   				<%= f.submit "Zaloguj", class: "btn btn-primary" %>
   				<a class="btn btn-success" href="users/new" role="button">Rejestracja</a>
 			</div>
+
 		<% end %>
-	
-              
+
+		
+
 			  
 			  <%# <div class="form-group">
                 <label for="email" class="sr-only">Adres e-mail</label>
@@ -78,6 +79,22 @@
       </div>
     </nav>
       <%# #f9f9f9 %>
+
+	<div class="container">
+		<section class="row" style="text-align: right;">
+			<aside class="col-md-4" >
+				<p class="text-light">s</p>
+			</aside>
+			<aside class="col-md-4" >
+				
+			</aside>
+			<aside class="col-md-4" >
+				<% if flash[:alert] %>
+    				<p id="alert"class="text-danger"><%= flash[:alert] %></p>
+				<% end %>  
+			</aside>
+		</section>
+	</div>
     <div class="container">
       <div class="jumbotron"  style="background-color:#FFFFFF !important">
         <h1>System rezerwacji sal</h1>

@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       redirect_to booked_lecture_rooms_url, notice: "Zostałeś zalogowany"
     else
-      redirect_to login_url, alert: "Hasło lub emeil są nieprawidłowe"
+      redirect_to login_url, alert: "E-mail lub hasło są nieprawidłowe!"
     end
   end
 
