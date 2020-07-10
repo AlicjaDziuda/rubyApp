@@ -1,31 +1,84 @@
-<p id="notice"><%= notice %></p>
+<!DOCTYPE HTML>
+<html lang="pl">
 
-<h1>Users</h1>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="U-XA-Compatible" content="IE=edge,chrome=1">
+    <title>index user</title>
+    <meta name="description" content="The HTML5 Herald">
+</head>
 
-<table>
-  <thead>
-    <tr>
-      <th>First name</th>
-      <th>Last name</th>
-      <th>Email</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<body>
+    <nav class="navbar navbar-expand navbar-light bg-light static-top">
+        <a class="navbar-brand" href="https://www.p.lodz.pl">
+            <%= image_tag("logotyp_politechnika_lodzka.png",:size => "240x90" ) %>
+        </a>
+        <a class="navbar-brand" href="http://www.weeia.p.lodz.pl">
+            <%= image_tag("weeia.png",:size => "270x90" ) %>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav mr-auto"></ul>
+            <%= link_to 'Wyloguj', logout_path, method: :delete , class: "btn btn-danger"%>
+        </div>
+    </nav>
 
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.first_name %></td>
-        <td><%= user.last_name %></td>
-        <td><%= user.email %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    <div class="col-md-8 offset-md-2 text-center">
+        <br />
+        <div class="card background-color: #f9f9f9">
+            <div class=card-header>
+                <h1>Użytkownicy</h1>
+                <p id="notice"><%= notice %></p>
+            </div>
+            <div class="card-body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Imie</th>
+                            <th>Nazwisko</th>
+                            <th>Email</th>
+                            <th colspan="3"></th>
+                        </tr>
 
-<br>
+                    </thead>
 
-<%= link_to 'New User ', new_user_path %>
+                    <tbody>
+                        <% @users.each do |user| %>
+                        <tr>
+                            <td><%= user.first_name %></td>
+                            <td><%= user.last_name %></td>
+                            <td><%= user.email %></td>
+                            <td><%= link_to 'Edytuj', edit_user_path(user),class: "btn btn-primary" %></td>
+                            <td><%= link_to 'Usuń', user, method: :delete, data: { confirm: 'Czy na pewno chcesz usunąć użytkownika?' }, class: "btn btn-danger" %></td>
+                        </tr>
+                        <% end %>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-body">
+                <%= link_to 'Dodaj użytkownika', new_user_path, class: "btn btn-success" %>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer font-small mdb-color pt-5">
+        <hr>
+        <div class="container">
+            <section class="row" style="text-align: center;">
+                <aside class="col-md-4">
+                    <p class="text-center text-md-left">© 2020 Copyright:
+                        <a href="https://www.p.lodz.pl">
+                            <strong> Politechnika Łódzka</strong>
+                        </a>
+                </aside>
+                <article class="col-md-4">
+                    <%= link_to 'Strona Domowa', logout_path, method: :delete %>
+                </article>
+                <article class="col-md-4">
+                    <h6>O nas</h2>
+                        <small>Tworzymy ten projekt jako grupa studentów trzeciego roku studiów. Uznaliśmy, że podczas nauki możemy również pomóc naszej uczelni - stąd pomysł aplikacji :)</small>
+                </article>
+            </section>
+        </div>
+    </footer>
+
+</body>
+</html>
