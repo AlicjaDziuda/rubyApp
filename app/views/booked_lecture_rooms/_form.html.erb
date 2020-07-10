@@ -1,16 +1,12 @@
-<%= form_with(model: booked_lecture_room, local: true) do |form| %>
-<% if booked_lecture_room.errors.any? %>
-<div id="error_explanation">
-    <h2><%= pluralize(booked_lecture_room.errors.count, "error") %> prohibited this booked_lecture_room from being saved:</h2>
-
-    <ul>
-        <% booked_lecture_room.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-        <% end %>
-    </ul>
-</div>
-<% end %>
 <div class="container">
+    <%= form_with(model: booked_lecture_room, local: true) do |form| %>
+    <% if booked_lecture_room.errors.any? %>
+    <div id="error_explanation">
+        <div id="error_explanation">
+            <p id="alert" class="text-danger text-left">Błędne dane!</p>
+        </div>
+    </div>
+    <% end %>
     <div class="field form-group">
         <%= form.text_field :name, class: "form-control", placeholder:"Przedmiot"%>
     </div>
@@ -27,13 +23,13 @@
     <div class="field form-group">
         Godzina rozpoczęcia
         <%= form.time_select :time, class: "form-control" %>
-        </div>
-        <div class="field form-group">
+    </div>
+    <div class="field form-group">
         <%= form.number_field :hours, class: "form-control", placeholder:"Czas trwania" %>
     </div>
 
     <div class="actions text-right">
-        <%= form.submit "Zatwierdź", class: "btn btn-primary"%>
+        <%= form.submit "Zatwierdź", class: "btn btn-success"%>
         <%= link_to 'Wróć', booked_lecture_rooms_path, class: "btn btn-primary"%>
     </div>
 </div>

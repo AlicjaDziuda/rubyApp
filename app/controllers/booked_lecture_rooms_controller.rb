@@ -28,7 +28,7 @@ class BookedLectureRoomsController < ApplicationController
 
     respond_to do |format|
       if @booked_lecture_room.save
-        format.html { redirect_to @booked_lecture_room, notice: 'Booked lecture room was successfully created.' }
+        format.html { redirect_to @booked_lecture_room, notice: 'Zarezerwowano salę.' }
         format.json { render :show, status: :created, location: @booked_lecture_room }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class BookedLectureRoomsController < ApplicationController
   def update
     respond_to do |format|
       if @booked_lecture_room.update(booked_lecture_room_params)
-        format.html { redirect_to @booked_lecture_room, notice: 'Booked lecture room was successfully updated.' }
+        format.html { redirect_to @booked_lecture_room, notice: 'Zaktualizowano rezerwację.' }
         format.json { render :show, status: :ok, location: @booked_lecture_room }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class BookedLectureRoomsController < ApplicationController
   def destroy
     @booked_lecture_room.destroy
     respond_to do |format|
-      format.html { redirect_to booked_lecture_rooms_url, notice: 'Booked lecture room was successfully destroyed.' }
+      format.html { redirect_to booked_lecture_rooms_url, notice: 'Anulowano rejestrację.' }
       format.json { head :no_content }
     end
   end

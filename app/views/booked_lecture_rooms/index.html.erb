@@ -50,7 +50,7 @@
                             <td><%= booked_lecture_room.data %></td>
                             <td><%= booked_lecture_room.time.strftime("%k:%M") %></td>
                             <td><%= booked_lecture_room.hours %></td>
-                            <td><%= link_to 'Pokaz', booked_lecture_room, class: "btn btn-primary"%></td>
+                            <td><%= link_to 'Pokaż', booked_lecture_room, class: "btn btn-primary"%></td>
                             <td><%= link_to 'Edytuj', edit_booked_lecture_room_path(booked_lecture_room), class: "btn btn-primary"%></td>
                             <td><%= link_to 'Anuluj', booked_lecture_room, method: :delete, data: { confirm: "Czy na pewno chcesz anulować?" },class:"btn btn-danger" %></td>
                         </tr>
